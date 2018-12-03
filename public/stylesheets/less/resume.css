@@ -1,0 +1,333 @@
+body {
+  font-family: "Microsoft Yahei", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-align: center;
+  margin: 0 auto;
+  padding: 0;
+  background: #FFF;
+  font-size: 12px;
+  color: #333;
+}
+body > div {
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+}
+div,
+form,
+ul,
+ol,
+li,
+span,
+p {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+img,
+a img {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+}
+ul,
+ol,
+li {
+  list-style: none;
+}
+table,
+td,
+input {
+  font-size: 12px;
+}
+a {
+  outline-style: none;
+  color: #FFF;
+  text-decoration: none;
+}
+th {
+  line-height: 78px;
+}
+td {
+  line-height: 78px;
+  text-align: center;
+}
+a:hover {
+  color: #c00;
+}
+.fl {
+  float: left;
+}
+.fr {
+  float: right;
+}
+.cl {
+  clear: both;
+  content: "";
+  overflow: hidden;
+  display: table;
+}
+em {
+  font: inherit;
+}
+.sub-small {
+  font-size: 130%;
+  color: #858585;
+}
+.z {
+  width: 100%;
+}
+.z .navbar-default {
+  background-color: rgba(0, 0, 0, 0.1);
+  border-width: 0 0 0px;
+}
+.z .navbar-default .container {
+  width: 1200px;
+}
+.z .navbar-default .container .col-md-4 {
+  position: relative;
+  top: 20px;
+}
+.z .navbar-default .container .col-md-4 a {
+  text-decoration: none;
+}
+.z .navbar-default .container .col-md-4 a h4 {
+  font-weight: 600;
+}
+.z .navbar-default .container .col-md-5 .navbar-nav li a:hover {
+  color: #c00!important;
+}
+.z .navbar-default .container .col-md-5 .navbar-nav li a {
+  padding-top: 19px;
+  color: #FFF;
+}
+.z .navbar-default .container .col-md-5 .navbar-nav li .pus-wrap {
+  position: absolute;
+  width: 1200px;
+  height: 200px;
+  left: -659px;
+  top: 61px;
+  text-align: left;
+  padding: 0 30px;
+  background-color: #333;
+  color: #FFF;
+}
+.z .navbar-default .container .col-md-5 .navbar-nav li .pus-wrap h2 {
+  margin: 10px 0;
+}
+.z .navbar-default .container .col-md-5 .navbar-nav li .pus-wrap ul li {
+  float: left;
+  margin-right: 200px;
+  margin-bottom: 20px;
+}
+.z .navbar-default .container .col-md-5 .navbar-nav li .pus-wrap .sp {
+  position: relative;
+  height: 1px;
+  width: 1200px;
+  background-color: #FFF;
+  margin: 14px auto 20px;
+}
+.z .navbar-default .container .col-md-5 .navbar-nav li .menu_btn {
+  padding-top: 12px;
+}
+.z .intro {
+  display: table;
+  width: 100%;
+  height: 700px;
+  background-image: url("../../../img/intro-bg.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.z .intro .intro-box {
+  display: table-cell;
+  vertical-align: middle;
+}
+.z .intro .intro-box .content h1 {
+  font-size: 70px;
+  font-weight: 700;
+  letter-spacing: -2px;
+}
+.z .intro .intro-box .content h1 em {
+  color: goldenrod;
+}
+.z .intro .intro-box .content p {
+  margin-top: 30px;
+  font-size: 20px;
+  letter-spacing: 10px;
+}
+.z .intro .intro-box .content a {
+  width: 70px;
+  height: 70px;
+  display: inline-block;
+  margin-top: 40px;
+  padding-top: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.247);
+  border-radius: 100%!important;
+  font-size: 40px;
+  font-weight: 400;
+  color: #F4D03F;
+}
+.g {
+  width: 100%;
+  height: 400px;
+  background: linear-gradient(to bottom, #6f7275 0%, #31353a 100%);
+}
+.g .wrap {
+  width: 1200px;
+  display: inline-table;
+  margin-top: 60px;
+}
+.g .wrap .sub-row h2 em {
+  font-weight: 600;
+}
+.g .wrap .sub-row hr {
+  border: 1px solid #F4D03F;
+  width: 60px;
+}
+.g .wrap .row {
+  width: 1200px;
+}
+.g .wrap .row .col-md-3 a .glyphicon {
+  font-size: 50px;
+  width: 120px;
+  height: 120px;
+  padding: 34px 0;
+  margin-bottom: 10px;
+  border-radius: 50%;
+  color: #aaa;
+  background: #474b4f;
+}
+.g .wrap .row .col-md-3 h4 {
+  color: #F4D03F;
+  font-weight: 400;
+  margin: 10px 0;
+}
+.g .wrap .row .col-md-3 p {
+  color: #aaa;
+}
+#works {
+  background-color: rgba(117, 114, 114, 0.322);
+}
+#works .container .center {
+  padding: 30px 0;
+}
+#works .container .center p {
+  padding-top: 10px;
+}
+#works .container .row .portfolio-items {
+  position: relative;
+  overflow: hidden;
+  height: 660px;
+}
+#works .container .row .portfolio-items .web {
+  margin-bottom: 30px;
+}
+#works .container .row .portfolio-items .web .portfolio-item .hover-bg {
+  height: 260px;
+  position: relative;
+  overflow: hidden;
+  transform: scale(1);
+  transition: all 0.5s;
+}
+#works .container .row .portfolio-items .web .portfolio-item .hover-bg .hover-text {
+  position: absolute;
+  top: 0;
+  left: 2px;
+  text-align: center;
+  margin: 0 auto;
+  color: #ffffff;
+  background: rgba(0, 0, 0, 0.66);
+  padding: 30% 0;
+  height: 105%;
+  width: 98%;
+  opacity: 0;
+  transition: all 0.5s;
+  z-index: 1233;
+}
+#works .container .row .portfolio-items .web .portfolio-item .hover-bg .hover-text h4 {
+  transform: translate(0%);
+  transition: .8s;
+}
+#works .container .row .portfolio-items .web .portfolio-item .hover-bg:hover {
+  transform: scale(1.2);
+  transition: all 0.5s;
+}
+#works .container .row .portfolio-items .web .portfolio-item .hover-bg:hover .hover-text {
+  opacity: 1;
+  transform: scale(1.1);
+}
+#works .container .row .portfolio-items .web .portfolio-item .hover-bg:hover h4 {
+  transform: translate(0%, -60%);
+}
+#works .container .row .portfolio-items .web .portfolio-item .hover-bg:hover img {
+  transform: scale(1);
+}
+#about {
+  background-color: #F4D03F;
+}
+#about .container .center {
+  padding: 100px 0 40px;
+}
+#about .container .center hr {
+  width: 60px;
+  border: solid #f7dc6f;
+}
+#about .container .row {
+  text-align: left;
+  height: 550px;
+}
+#about .container .row .col-md-6 .col-md-1 .glyphicon {
+  font-size: 28px;
+}
+#about .container .row .col-md-6 .col-md-11 .padding-left h3 {
+  padding-bottom: 10px;
+}
+#about .container .row .col-md-6 .col-md-11 .padding-left p {
+  font-size: 14px;
+}
+#contact {
+  background: linear-gradient(to bottom, #ffffff 0%, #cccccc 100%);
+}
+#contact .container {
+  height: 400px;
+}
+#contact .container .center h2 {
+  margin: 80px 0 40px;
+}
+#contact .container .center hr {
+  width: 80px;
+  border: solid #F4D03F;
+}
+#contact .container .col-md-8 .col-md-4 .glyphicon {
+  margin-top: 10px;
+  font-size: 28px;
+}
+#contact .container .col-md-8 .col-md-4 p {
+  font-size: 15px;
+  padding-top: 20px;
+}
+#contact .container .col-md-8 h3 {
+  margin-bottom: 50px;
+}
+#footer {
+  background-color: #31353a;
+}
+#footer .container {
+  height: 80px;
+  color: #FFF;
+  text-align: center;
+}
+#footer .container .fnav {
+  text-align: left;
+  position: relative;
+  top: 33px;
+}
